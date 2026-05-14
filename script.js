@@ -109,6 +109,26 @@
 
   statNumbers.forEach(el => counterObserver.observe(el));
 
+  // ── Project category filters ───────────────────────────
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card[data-category]');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+      projectCards.forEach(card => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+
   // ── Stagger reveal delays ─────────────────────────────
   document.querySelectorAll('.projects__grid, .skills__grid, .education__grid, .recs__grid, .contact__grid, .certs__list').forEach(grid => {
     const children = grid.querySelectorAll('.reveal');
