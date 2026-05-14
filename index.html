@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alidin Abylkasym uulu — Software Engineer</title>
+  <meta name="description" content="Portfolio of Alidin Abylkasym uulu — Climate Software Engineer at MSCI, Python developer, and CS graduate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">A.</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <p class="hero__greeting animate-in">Hi, I'm</p>
+      <h1 class="hero__name animate-in">Alidin Abylkasym&nbsp;uulu</h1>
+      <h2 class="hero__title animate-in">Climate Software Engineer</h2>
+      <p class="hero__subtitle animate-in">Building tools for ESG &amp; Climate analytics at <strong>MSCI</strong> in Budapest. Python, Django, Spark, and a passion for clean code.</p>
+      <div class="hero__actions animate-in">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </div>
+      <div class="hero__socials animate-in">
+        <a href="https://github.com/alidin000" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alidin-abylkasym-uulu-35a622224/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="https://leetcode.com/Alidinn/" target="_blank" rel="noopener" aria-label="LeetCode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__photo animate-in">
+      <img src="profile.jpg" alt="Alidin Abylkasym uulu" width="320" height="320">
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>Since the beginning of university, I've been exploring various technologies and programming paradigms — starting with functional programming and working with languages like C++, Python, and JavaScript. I've delved into AI, ML, backend, and frontend development.</p>
+          <p>My recent experience has been primarily in <strong>Python backend development</strong> at MSCI, working with Django, PySpark, data processing pipelines, and testing tools within the <strong>ESG &amp; Climate sector</strong>. I build internal tools that power climate analytics for global financial institutions.</p>
+          <p>Beyond coding, I've mentored Python students, tutored math for government exam prep, and solved <strong>500+ LeetCode problems</strong>. I'm always open to learning new things and embracing new challenges.</p>
+        </div>
+        <div class="about__stats">
+          <div class="stat-card">
+            <span class="stat-card__number" data-target="3">0</span><span class="stat-card__plus">+</span>
+            <span class="stat-card__label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number" data-target="500">0</span><span class="stat-card__plus">+</span>
+            <span class="stat-card__label">LeetCode Solved</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number" data-target="6">0</span><span class="stat-card__plus">+</span>
+            <span class="stat-card__label">Projects Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number" data-target="4">0</span>
+            <span class="stat-card__label">Languages Spoken</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">May 2025 — Present</span>
+            <h3 class="timeline__role">Climate Software Engineer</h3>
+            <h4 class="timeline__company">MSCI Inc. — Budapest, Hungary</h4>
+            <p>Building and maintaining Python-based internal tools for ESG &amp; Climate analytics. Working with Django, PySpark, Pandas, and Azure DevOps in a cross-functional engineering team delivering climate risk models to global financial institutions.</p>
+            <div class="timeline__tags">
+              <span>Python</span><span>Django</span><span>PySpark</span><span>Azure</span><span>Pandas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Mar 2025 — Jul 2025</span>
+            <h3 class="timeline__role">Python Mentor</h3>
+            <h4 class="timeline__company">Motion Web IT Academy — Bishkek, Kyrgyzstan</h4>
+            <p>Taught Python as a backend programming language to aspiring developers. Designed curriculum covering fundamentals through web development with Django.</p>
+            <div class="timeline__tags">
+              <span>Python</span><span>Teaching</span><span>Django</span><span>Mentoring</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Jul 2024 — Feb 2025</span>
+            <h3 class="timeline__role">Climate Software Engineer Intern</h3>
+            <h4 class="timeline__company">MSCI Inc. — Budapest, Hungary</h4>
+            <p>Worked on end-to-end projects delivering key features for Operations platforms within ESG &amp; Climate. Used Django for internal applications, Pandas/NumPy for data processing, and pytest/Postman for testing and API validation.</p>
+            <div class="timeline__tags">
+              <span>Python</span><span>Django</span><span>Pandas</span><span>pytest</span><span>Postman</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Jul 2023 — Jul 2024</span>
+            <h3 class="timeline__role">Python Developer Intern</h3>
+            <h4 class="timeline__company">MSCI Inc. — Budapest, Hungary</h4>
+            <p>Developed Python code in a framework for validating production code that performs P&amp;L attribution of complex financial derivatives. Implemented classes, functions, and scripting to produce XML files. Collaborated with cross-functional teams using Git and Azure DevOps.</p>
+            <div class="timeline__tags">
+              <span>Python</span><span>NumPy</span><span>Git</span><span>Azure DevOps</span><span>XML</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Aug 2022 — Dec 2022</span>
+            <h3 class="timeline__role">Data Annotator</h3>
+            <h4 class="timeline__company">Tech Mahindra — Budapest, Hungary</h4>
+            <p>Used advanced NLP techniques to analyze large text datasets. Identified patterns in virtual assistant interactions and found similarities between expressed intentions, contributing to language model development.</p>
+            <div class="timeline__tags">
+              <span>NLP</span><span>Data Annotation</span><span>Text Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2021 — May 2021</span>
+            <h3 class="timeline__role">Mathematics Tutor</h3>
+            <h4 class="timeline__company">KalemCo — Osh, Kyrgyzstan</h4>
+            <p>Tutored high school students in mathematics, preparing them for official government exams and Olympiad competitions.</p>
+            <div class="timeline__tags">
+              <span>Mathematics</span><span>Tutoring</span><span>Exam Prep</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/CodeprofilingAndTimeComplexity" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Time Complexity Analyzer</h3>
+          <p class="project-card__desc">Web tool that analyzes time complexity of code within set constraints. Features algorithm visualizations, quizzes, and interactive learning tools for deeper understanding of computational complexity.</p>
+          <div class="project-card__tags">
+            <span>Django</span><span>React</span><span>SciPy</span><span>Python</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/Bomberman" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Bomberman</h3>
+          <p class="project-card__desc">Team-based multiplayer game where players use bombs to combat monsters and foes. Developed with TDD principles, CI/CD pipelines, and UML class diagrams, structured around user stories.</p>
+          <div class="project-card__tags">
+            <span>TypeScript</span><span>React</span><span>TDD</span><span>CI/CD</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/Bulb-placing" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Light Bulb Game</h3>
+          <p class="project-card__desc">A puzzle game where you place bulbs on a board to illuminate every cell, while ensuring no two bulbs shine on each other. Pure browser-based logic challenge.</p>
+          <div class="project-card__tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/Voting-page-using-PHP-" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Voting Page</h3>
+          <p class="project-card__desc">Web application where users cast votes on polls. Admin users can create single-option or multiple-option polls with deadlines. Features authentication and real-time results.</p>
+          <div class="project-card__tags">
+            <span>HTML/CSS</span><span>PHP</span><span>MySQL</span><span>Auth</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/MineSweeper" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Minesweeper</h3>
+          <p class="project-card__desc">Classic single-player logic-based game where the objective is to find all mines on a rectangular board. Features GUI built with Java Swing and MySQL for score persistence.</p>
+          <div class="project-card__tags">
+            <span>Java</span><span>Swing</span><span>MySQL</span><span>OOP</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/alidin000/record-education" target="_blank" rel="noopener" aria-label="Source code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Record Education Center</h3>
+          <p class="project-card__desc">Full-featured website for an education center in Osh, Kyrgyzstan. Includes public pages (courses, schedule, teachers, achievements), admin panel with dashboard, trilingual support (Kyrgyz/Russian/English), WhatsApp integration, and JWT auth.</p>
+          <div class="project-card__tags">
+            <span>JavaScript</span><span>JWT Auth</span><span>i18n</span><span>Admin Panel</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title">Skills &amp; Tools</h2>
+      <div class="skills__grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Languages</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Go</span>
+            <span class="skill-tag">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Frameworks &amp; Libraries</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">PySpark</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">PyArrow</span>
+            <span class="skill-tag">SciPy</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Tools &amp; Platforms</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Azure DevOps</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">pytest</span>
+            <span class="skill-tag">GNU Make</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Databases</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Concepts</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Functional Programming</span>
+            <span class="skill-tag">Concurrent Programming</span>
+            <span class="skill-tag">Algorithms &amp; Data Structures</span>
+            <span class="skill-tag">Design Patterns</span>
+            <span class="skill-tag">Agile / Scrum</span>
+            <span class="skill-tag">TDD</span>
+            <span class="skill-tag">CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Spoken Languages</h3>
+          <div class="skill-group__items">
+            <span class="skill-tag">Kyrgyz</span>
+            <span class="skill-tag">Russian</span>
+            <span class="skill-tag">English</span>
+            <span class="skill-tag">Turkish</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section__title">Education</h2>
+      <div class="education__grid">
+
+        <div class="edu-card">
+          <div class="edu-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <span class="edu-card__date">2021 — 2025</span>
+          <h3 class="edu-card__degree">BSc Computer Science</h3>
+          <h4 class="edu-card__school">Eotvos Lorand University (ELTE)</h4>
+          <p class="edu-card__location">Budapest, Hungary</p>
+          <span class="edu-card__badge">Stipendium Hungaricum Scholar</span>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <span class="edu-card__date">2020 — 2021</span>
+          <h3 class="edu-card__degree">Applied Math &amp; Informatics</h3>
+          <h4 class="edu-card__school">Kyrgyz-Turkish Manas University</h4>
+          <p class="edu-card__location">Bishkek, Kyrgyzstan</p>
+        </div>
+
+      </div>
+
+      <div class="certs">
+        <h3 class="certs__title">Certifications</h3>
+        <div class="certs__list">
+          <span class="cert-tag">Python for Data Science Tips &amp; Techniques</span>
+          <span class="cert-tag">Using Large Datasets with Pandas</span>
+          <span class="cert-tag">Apache PySpark by Example</span>
+          <span class="cert-tag">Azure Fundamentals (AZ-900) Prep</span>
+          <span class="cert-tag">IoT Fundamentals: Big Data &amp; Analytics</span>
+          <span class="cert-tag">Git: Branches, Merges, and Remotes</span>
+          <span class="cert-tag">Python: Decorators</span>
+          <span class="cert-tag">Build Your Financial Literacy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section class="section section--alt" id="recommendations">
+    <div class="container">
+      <h2 class="section__title">Recommendations</h2>
+      <div class="recs__grid">
+        <blockquote class="rec-card">
+          <p>"Alidin quickly picked up the necessary financial basics and our coding standards, even without prior knowledge. He works well independently, but also knows when to seek guidance to make progress. His hard work, motivation, and good analytical skills have been a great asset to our team."</p>
+          <footer>
+            <strong>Gabor Almasi</strong>
+            <span>Team Lead at MSCI</span>
+          </footer>
+        </blockquote>
+        <blockquote class="rec-card">
+          <p>"What impressed me most was his intellectual honesty. He has a clear sense of what he knows and what he doesn't, and he asks the right questions at the right time. Beyond his technical skills, Alidin willingly takes ownership of tasks and follows through."</p>
+          <footer>
+            <strong>Ibolya Eva Szadeczky-Kardoss</strong>
+            <span>Manager at MSCI</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container container--narrow">
+      <h2 class="section__title">Get in Touch</h2>
+      <p class="contact__intro">I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+      <div class="contact__grid">
+        <a href="mailto:alidinabylkasymuulu03@gmail.com" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>alidinabylkasymuulu03@gmail.com</span>
+        </a>
+        <a href="https://github.com/alidin000" target="_blank" rel="noopener" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          <span>github.com/alidin000</span>
+        </a>
+        <a href="https://www.linkedin.com/in/alidin-abylkasym-uulu-35a622224/" target="_blank" rel="noopener" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <span>LinkedIn Profile</span>
+        </a>
+        <a href="https://leetcode.com/Alidinn/" target="_blank" rel="noopener" class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+          <span>LeetCode Profile</span>
+        </a>
+      </div>
+      <div class="contact__cv">
+        <a href="Abylkasym_uulu_Alidin_CV.pdf" class="btn btn--primary btn--lg" download>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Alidin Abylkasym uulu. Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
