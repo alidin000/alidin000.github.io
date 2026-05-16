@@ -949,6 +949,24 @@ img { max-width: 100%; display: block; }
   margin-top: 24px;
 }
 
+.contact__cv-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+.contact__cv-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact__cv-buttons .btn {
+  min-width: 200px;
+}
+
 /* ───────────────────────────────────────
    Footer
    ─────────────────────────────────────── */
